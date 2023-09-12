@@ -43,8 +43,8 @@ class MyApp extends StatelessWidget {
       initialTrack: 'Mobile Track(Flutter)',
       initialSlackUserName: ' Sparkling Lily',
       initialGithubHandle: 'Sparkling Lily',
-      initialBio: 'I am a flutter Mobile Developer.Making your ideas come to '
-          'life using Flutter gives me this undescribable feeling');
+      initialBio: 'I am a flutter Mobile Developer. Making your ideas come to '
+          'life using Flutter gives me an undescribable feeling');
    MyApp({super.key});
 
   // This widget is the root of your application.
@@ -53,13 +53,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.purple
+        colorScheme: ColorScheme.
+        fromSwatch(primarySwatch: Colors.orange
         ),
         appBarTheme: const AppBarTheme(
           iconTheme: IconThemeData(
-            color: Colors.white
+            color: Colors.orangeAccent
           ),
-          color: Color(0xFF651FFF),
+          color: Colors.orangeAccent,
          // systemOverlayStyle: SystemUiOverlayStyle(statusBarColor: Color(0xFF651FFF),)
         ),
         useMaterial3: true,

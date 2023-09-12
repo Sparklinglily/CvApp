@@ -1,6 +1,21 @@
-# hng_stage_two
+# A Curriculum Vitae  Flutter App
 
-Task for stage two at hng
+A two-paged Cv App,the first page(Home-screen) displays personal data,
+while the second page is for editing details.
+
+##Scrennshots
+
+
+##Appetize Link:
+
+##Installation:
+
+1. Firs copy he repo's code url, open he erminal in our code edior and ty-pe
+ "git clone (code url)".
+2. Run flutter pub get
+
+
+
 
 ## Getting Started
 
