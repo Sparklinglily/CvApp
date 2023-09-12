@@ -10,14 +10,41 @@ void main() {
 
 //create a custom class for storing your data
 class CvDetails{
-  ValueNotifier<String> fullName = ValueNotifier<String>("");
-  ValueNotifier<String> track  = ValueNotifier<String>("");
+  ValueNotifier<String> fullName = ValueNotifier<String>("Carla Ejemeh Inya-Agha");
+  ValueNotifier<String> track  = ValueNotifier<String>("Mobile Track(Flutter)");
+  ValueNotifier<String> slackUserName = ValueNotifier<String>("Sparkling Lily");
+  ValueNotifier<String> githubHandle  = ValueNotifier<String>("Sparkling Lily");
+
+  ValueNotifier<String> bio  = ValueNotifier<String>("");
+
+// prefilled data
+  CvDetails({
+    required String initialFullName,
+    required String initialTrack,
+    required String initialSlackUserName,
+    required String initialGithubHandle,
+    required String initialBio,
+})
+  {
+    fullName.value = initialFullName;
+    track.value = initialTrack;
+    slackUserName.value= initialSlackUserName;
+    githubHandle.value = initialGithubHandle;
+    bio.value = initialBio;
+
+  }
 }
 
 
 class MyApp extends StatelessWidget {
   //?
-  final CvDetails cvDetails = CvDetails();
+  final CvDetails cvDetails = CvDetails(
+      initialFullName: 'Carla Ejemeh Inya-Agha',
+      initialTrack: 'Mobile Track(Flutter)',
+      initialSlackUserName: ' Sparkling Lily',
+      initialGithubHandle: 'Sparkling Lily',
+      initialBio: 'I am a flutter Mobile Developer.Making your ideas come to '
+          'life using Flutter gives me this undescribable feeling');
    MyApp({super.key});
 
   // This widget is the root of your application.
@@ -29,6 +56,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.purple
         ),
         appBarTheme: const AppBarTheme(
+          iconTheme: IconThemeData(
+            color: Colors.white
+          ),
           color: Color(0xFF651FFF),
          // systemOverlayStyle: SystemUiOverlayStyle(statusBarColor: Color(0xFF651FFF),)
         ),

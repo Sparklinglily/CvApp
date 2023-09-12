@@ -13,10 +13,16 @@ class EditPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xFFEDE7F6),
+      appBar: AppBar(
+        title: Text("Edit Cv",textAlign: TextAlign.start,
+          style: TextStyle(color: Colors.white,fontWeight:
+          FontWeight.bold),),
+      ),
       body: Padding(
         padding: EdgeInsets.all(16.0),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+
           children: [
             TextField(
               controller:fullNameController,
