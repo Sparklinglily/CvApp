@@ -3,11 +3,6 @@
 A two-paged Cv App,that displays a CV Page and an Editing Page.
 
 
-## Snapshots
-
-![CV Page](images/page1.png)
-![Edit Page](images/page2.png)
-
 ## Appetize Link
 
 [Appetize Link](https://appetize.io/app/qlwvi7chy4f5sbwzkomtnew56m?device=pixel4&osVersion=11.0&scale=75)
@@ -38,14 +33,10 @@ THE Cv screen displays user' info . The Edit screen displays consistently styled
 ## Installation:
 
 1. Ensure you have flutter and dart sdk in your system.
-
 2. Copy the code url, open the terminal in your code editor and type.
  "git clone <code url>.
-
 3. Type "cd CvApp" in your terminal inorder to change current working directory to the project folder.
-
 3. Afterwards, input "flutter run" in your terminal to start the project on your device or emulator after a few minutes.
-
 4.  Upon launching the app, an `CvPage` comes up, with personal details, a short bio and an edit button that navigates to the `EditPage`. Changes made in the `EditPage`are reflected in real-time on the Cvpage.
 
 
