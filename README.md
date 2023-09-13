@@ -5,12 +5,17 @@ A two-paged Cv App,that displays a CV Page and an Editing Page.
 
 ##Snapshots
 
+![CV Page](images/page1.png)
+![Edit Page](images/page2.png)
 
 ##Appetize Link
+
+[Appetize Link](https://appetize.io/app/qlwvi7chy4f5sbwzkomtnew56m?device=pixel4&osVersion=11.0&scale=75)
 
 ##Overview
 This is a flutter Mobile App that displays a `CvPage` and an `EditPage`
 THE Cv screen displays user' info . The Edit screen displays consistently styled textfields that allow users update their ingormation on the `CvPage`. Changes made in the `EditPage` are updated immediately on the `CvPage`.
+`ValueNotifier` and `ValueListenableBuilder` are used to rebuild widgets and maintain state in this mobile App, because it is performance-efficient.
 
 
 ##Features
