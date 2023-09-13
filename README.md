@@ -27,14 +27,13 @@ THE Cv screen displays user' info . The Edit screen displays consistently styled
 
 * Allows users edit CV details.
 * Displays  user-friendly fields for updating existing CV details.
-*  Updates changes made in real time, these changes reflect immediately on the CV screen upon clicking the save button.
+* Updates changes made in real time, these changes reflect immediately on the CV screen upon clicking the save button.
  
 
 ## Installation:
 
 1. Ensure you have flutter and dart sdk in your system.
-2. Copy the code url, open the terminal in your code editor and type.
- "git clone <code url>.
+2. Copy the code url, open the terminal in your code editor and type "git clone <code url>.
 3. Type "cd CvApp" in your terminal inorder to change current working directory to the project folder.
 3. Afterwards, input "flutter run" in your terminal to start the project on your device or emulator after a few minutes.
 4.  Upon launching the app, an `CvPage` comes up, with personal details, a short bio and an edit button that navigates to the `EditPage`. Changes made in the `EditPage`are reflected in real-time on the Cvpage.
