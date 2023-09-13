@@ -1,31 +1,47 @@
-# A Curriculum Vitae  Flutter App
+# A CV Flutter Mobile App.
 
-A two-paged Cv App,the first page(Home-screen) displays personal data,
-while the second page is for editing details.
-
-##Scrennshots
+A two-paged Cv App,that displays a CV Page and an Editing Page.
 
 
-##Appetize Link:
+##Snapshots
+
+
+##Appetize Link
+
+##Overview
+This is a flutter Mobile App that displays a `CvPage` and an `EditPage`
+THE Cv screen displays user' info . The Edit screen displays consistently styled textfields that allow users update their ingormation on the `CvPage`. Changes made in the `EditPage` are updated immediately on the `CvPage`.
+
+
+##Features
+
+###CV SCREEN:
+
+ * `CvPage` displaying the user's name, slack username, email address, github handle and a short bio.
+ * An edit button that navigates to the `EditPage`.
+ * A clean UI, styled in a consistent manner to display text in a legible form.
+
+
+ ###CV EDIT SCREEN:
+
+* Allows users edit CV details.
+* Displays  user-friendly fields for updating existing CV details.
+*  Updates changes made in real time, these changes reflect immediately on the CV screen upon clicking the save button.
+ 
 
 ##Installation:
 
-1. Firs copy he repo's code url, open he erminal in our code edior and ty-pe
- "git clone (code url)".
-2. Run flutter pub get
+1. Ensure you have flutter and dart sdk in your system.
+
+2. Copy the code url, open the terminal in your code editor and type.
+ "git clone <code url>.
+
+3. Type "cd CvApp" in your terminal inorder to change current working directory to the project folder.
+
+3. Afterwards, input "flutter run" in your terminal to start the project on your device or emulator after a few minutes.
+
+4.  Upon launching the app, an `CvPage` comes up, with personal details, a short bio and an edit button that navigates to the `EditPage`. Changes made in the `EditPage`are reflected in real-time on the Cvpage.
 
 
 
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
