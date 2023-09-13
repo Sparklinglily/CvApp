@@ -3,38 +3,39 @@
 A two-paged Cv App,that displays a CV Page and an Editing Page.
 
 
-##Snapshots
+## Snapshots
 
 ![CV Page](images/page1.png)
 ![Edit Page](images/page2.png)
 
-##Appetize Link
+## Appetize Link
 
 [Appetize Link](https://appetize.io/app/qlwvi7chy4f5sbwzkomtnew56m?device=pixel4&osVersion=11.0&scale=75)
 
-##Overview
+## Overview
+
 This is a flutter Mobile App that displays a `CvPage` and an `EditPage`
 THE Cv screen displays user' info . The Edit screen displays consistently styled textfields that allow users update their ingormation on the `CvPage`. Changes made in the `EditPage` are updated immediately on the `CvPage`.
 `ValueNotifier` and `ValueListenableBuilder` are used to rebuild widgets and maintain state in this mobile App, because it is performance-efficient.
 
 
-##Features
+## Features
 
-###CV SCREEN:
+### CV SCREEN:
 
  * `CvPage` displaying the user's name, slack username, email address, github handle and a short bio.
  * An edit button that navigates to the `EditPage`.
  * A clean UI, styled in a consistent manner to display text in a legible form.
 
 
- ###CV EDIT SCREEN:
+ ### CV EDIT SCREEN:
 
 * Allows users edit CV details.
 * Displays  user-friendly fields for updating existing CV details.
 *  Updates changes made in real time, these changes reflect immediately on the CV screen upon clicking the save button.
  
 
-##Installation:
+## Installation:
 
 1. Ensure you have flutter and dart sdk in your system.
 
